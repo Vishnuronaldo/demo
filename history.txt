@@ -1,0 +1,521 @@
+1  sudo apt update
+    2  sudo nano /etc/resolv.conf 
+    3  sudo apt update
+    4  sudo apt upgrade
+    5  sudo apt install gcc++
+    6  sudo apt install gcc
+    7  sudo apt install build-essentials
+    8  sudo apt install build-essential
+    9  sudo apt install gdb
+   10  init 0
+   11  gcc --version
+   12  cd "/home/rps/Desktop/C Demo/" && gcc first.c -o first && "/home/rps/Desktop/C Demo/"first
+   13  sudo su
+   14  tar xvfz node_exporter-1.7.0.linux-amd64.tar.gz 
+   15  cd node_exporter-1.7.0.linux-amd64/
+   16  sudo mv node_exporter /usr/local/bin/
+   17  sudo tee /etc/systemd/system/node_exporter.service<<EOF
+   18  [Unit]
+   19  Description=Node Exporter
+   20  After=network.target
+   21   
+   22  [Service]
+   23  User=rps
+   24  Group=rps
+   25  Type=simple
+   26  ExecStart=/usr/local/bin/node_exporter
+   27   
+   28  [Install]
+   29  WantedBy=multi-user.target
+   30  EOF
+   31  sudo systemctl daemon-reload
+   32  sudo systemctl start node_exporter
+   33  sudo systemctl enable node_exporter
+   34  sudo systemctl status node_exporter
+   35  sudo apt install gcc
+   36  sudo apt install git
+   37  sudo apt install make
+   38  sudo apt install vim
+   39  sudo apt install g++
+   40  sudo apt install gedit
+   41  sudo apt install cmake
+   42  sudo apt install g++
+   43  cd
+   44  sudo apt update -y
+   45  sudo apt install mysql-server
+   46  sudo systemctl status mysql.service 
+   47  sudo mysql
+   48  sudo mysql_secure_installation
+   49  sudo mysql
+   50  sudo mysql_secure_installation
+   51  sudo mysql -u root -p
+   52  sudo snap install mysql-workbench-community
+   53  cd Desktop
+   54  man tar
+   55  man
+   56  man man
+   57  man alias
+   58  man tar
+   59  man alias
+   60  alias
+   61  man alias
+   62  man tar
+   63  ALIAS -P
+   64  alias -p
+   65  alias
+   66  alias name="ls -lh"
+   67  name
+   68  alias
+   69  man alias
+   70  ls -A
+   71  ls -alF
+   72  alias
+   73  ls
+   74  cd Desktop
+   75  alias
+   76  man alias
+   77  alias
+   78  ls
+   79  cd Desktop
+   80  mkdir f1
+   81  cd f1
+   82  touch file1.txt file2.txt
+   83  cp f1 ~/downloads
+   84  cat file.txt
+   85  cat file1.txt
+   86  cat >>file1.txt
+   87  cat >>file2.txt
+   88  cp f1
+   89  cd f1
+   90  cd ..
+   91  cd f1
+   92  cp /home/rps/Desktop /home/Downloads
+   93  cp -r  /home/rps/Desktop /home/Downloads
+   94  cd ..
+   95  cd f1
+   96  cp -r /home/rps/Desktop/f1 /home/Downloads
+   97  cd ..
+   98  cp -r /home/rps/Desktop/f1 /home/Downloads
+   99  cp -r /rps/Desktop/f1 /Downloads
+  100  cp -r /home/rps/Desktop/f1 /home/Downloads/
+  101  cp -r f1 /home/Downloads/
+  102  cp -r f1 ~/Downloads
+  103  cd Downloads
+  104  cd ..
+  105  cd Downloads
+  106  ls
+  107  cd f1
+  108  ls
+  109  cd~
+  110  cd ..
+  111  history
+  112  sudo
+  113  su
+  114  sudo
+  115  sudo password sammy
+  116  sudo -k
+  117  sudo shutdown -r now
+  118  sudo -h
+  119  sudo -v
+  120  sudo -b
+  121  sudo -k
+  122  ls -l file1.txt
+  123  chmod 760 file1.txt
+  124  ls -l file1.txt
+  125  vl text.txt
+  126  vi text.txt
+  127  ls -l
+  128  ls -l file1.txt
+  129  vi text.txt
+  130  ls
+  131  nano
+  132  git status
+  133  ls
+  134  cd Downloads
+  135  git status
+  136  cd ..
+  137  ls
+  138  cd git
+  139  cd      Home
+  140  cd Desktop
+  141  cd linux
+  142  git status
+  143  git init
+  144  get remote add origin git@github.com:Vishnuronaldo/linuxcommand.git
+  145  git remote add origin git@github.com:Vishnuronaldo/linuxcommand.git
+  146  git status
+  147  git add .
+  148  git status
+  149  git init
+  150  git status
+  151  git add file1.txt
+  152  git add f1
+  153  cat >>hello.txt
+  154  git add hello.txt
+  155  git status
+  156  git add .
+  157  git status
+  158  git commit -m "sample commit"
+  159  git push origin main
+  160  git push origin master
+  161  sudo nano file1.txt
+  162  cd~
+  163  cd ~
+  164  sudo apt-get update
+  165  sudo apt-now upgrade
+  166  sudo apt-get upgrade
+  167  git init
+  168  git add .
+  169  git commit
+  170  git config --global user.email "vjp2477@gmail.com"
+  171  git config --global user.naaaame"Vishnu J P"
+  172  git config --global user.name"Vishnu J P"
+  173  git config --global user.name "Vishnu J P"
+  174  git remote add origin https
+  175  git remote add origin https://github.com/Vishnuronaldo/linux.git
+  176  git status
+  177  git comit
+  178  git commit
+  179  git remote add origin https://github.com/Vishnuronaldo/linux
+  180  git branch
+  181  git branch -M main
+  182  git branch
+  183  git commit
+  184  git push -u origin main
+  185  clear
+  186  git --version
+  187  git config --global user.name "Vishnu J p"
+  188  git config --global user.email vjp2477@gmail.com
+  189  git init
+  190  git add linux
+  191  git add   file1.txt
+  192  git commit -m "first commit"
+  193  git push origin file1.txt:main
+  194  git push origin main
+  195  man
+  196  man man
+  197  ls
+  198  cd
+  199  cd Desktop
+  200  mkdir fruits
+  201  pwd
+  202  ls
+  203  rmdir fruits
+  204  ls
+  205  mkdir fruits
+  206  mv fruits ~/downloads
+  207  cd ..
+  208  cd Desktop
+  209  ls
+  210  mkdir fruits
+  211  ls
+  212  mv mkdir ~/Downloads
+  213  mv fruits  ~/Downloads
+  214  cd ..
+  215  cd Downloads
+  216  ls
+  217  cd ..
+  218  cd Downloads
+  219  mkdir car
+  220  cp -r car f1
+  221  ls
+  222  cd f1
+  223  ls
+  224  cd ..
+  225  open <f1>
+  226  cd ..
+  227  open f1
+  228  cd Downloads
+  229  open f1
+  230  touch apple
+  231  ls
+  232  find f1  -name file1.txt 
+  233  gzip linux.pdf~
+  234  gzip linux.pdf
+  235  ls
+  236  cd f1
+  237  gunzip file1.txt
+  238  cd ..
+  239  gunzip car.gz
+  240  tar -cf archive.tar fruits car
+  241  ls
+  242  tar -xf archive.tar
+  243  ls
+  244  alias
+  245  alias ll='ls -al'
+  246  ls
+  247  cat apple
+  248  cat f1
+  249  cd f1
+  250  ls
+  251  cat file1.txt
+  252  cat >>file3.txt
+  253  ls
+  254  cat file3.txt
+  255  less file1.txt
+  256  cd ..
+  257  tail -n 10 f1
+  258  tail -f f1
+  259  ls
+  260  echo test >> test.txt
+  261  ls
+  262  wc test.txt
+  263  grep file3.txt f1
+  264  grep document.getElementById  test.txt
+  265  grep document.getElementById  index.md
+  266  grep document.getElementById  test.txt
+  267  ls
+  268  cat >> dogs.txt
+  269  sort dogs.txt
+  270  sort -r  dogs.txt
+  271  uniq dogs.txt
+  272  ls | uniq
+  273  sort dogs.txt | uniq
+  274  cat >> dogs.txt
+  275  cat dogs.txt
+  276  sort dogs.txt | uniq   -d
+  277  sort dogs.txt | uniq   -c
+  278  cat >> moredogs.txt
+  279  diff dogs.txt moredogs.txt
+  280  echo "hello" >> res.txt
+  281  cat res.txt
+  282  echo ~
+  283  chown jim res.ttttxt
+  284  chown john res.txt
+  285  ls -al
+  286  uuumask
+  287  umask
+  288  umask -s
+  289  umask -S
+  290  umask 002
+  291  umask g+r
+  292  kill
+  293  du
+  294  df
+  295  basename /home/Downloads/test..txt
+  296  basename /home/Downloads/test.txt
+  297  basename /home/Downloads
+  298  who
+  299  ping
+  300  which ls
+  301  which docker
+  302  which Downloads
+  303  whoami
+  304  su
+  305  sudo
+  306  sudo -i
+  307  passwd
+  308  ping google.com
+  309  echo $TEST
+  310  TEST="test"
+  311  export TEST="test"
+  312  uname
+  313  uname -n
+  314  history
+  315  sudo -i
+  316  sudo adduser user1
+  317  ls
+  318  sudo useradd user1
+  319  sudo useradd user
+  320  history
+  321  sudo apt install traceroute
+  322  traceroute www.google.com
+  323  ifconfig
+  324  sudo install net-tools
+  325  sudo apt install net-tools
+  326  ifconfig
+  327  ifconfig -a
+  328  man ifconfig
+  329  route -n
+  330  ip a
+  331  netstat -rn
+  332  hostname -I
+  333  cd ..
+  334  cd f1
+  335  cd Downloads
+  336  cd f1
+  337  ls -l file1.txt
+  338  chmode 674 file1.txt
+  339  chmod 674 file1.txt
+  340  ls -l file1.txt
+  341  ln file1.txt text1.txt
+  342  ls -l file1.txt
+  343  git init
+  344  git remote add origin https://github.com/Vishnuronaldo/linux.git
+  345  clear
+  346  cd ..
+  347  mkdir gitproject
+  348  ls
+  349  cd gitproject
+  350  cd ..
+  351  mkdir Project
+  352  ls
+  353  cd Project
+  354  vi hello.txt
+  355  ls
+  356  git init
+  357  git add .
+  358  git commit -m "commit"
+  359  git remote add origin https://github.com/Vishnuronaldo/demo.git
+  360  git push -u origin master
+  361  vi hi.txt
+  362  ls
+  363  git add .
+  364  git push -u origin master
+  365  git add .
+  366  git commit -m "second commit"
+  367  git push -u origin master
+  368  git add .
+  369  git push -u origin master
+  370  ls
+  371  git add linux.pdf.gz
+  372  git commit -m "second commit"
+  373  git push -u origin master
+  374  git add Linux-Tutorial.pdf
+  375  git commit -m "third commit"
+  376  git push -u origin master
+  377  history
+  1  sudo apt update
+    2  sudo nano /etc/resolv.conf 
+    3  sudo apt update
+    4  sudo apt upgrade
+    5  sudo apt install gcc++
+    6  sudo apt install gcc
+    7  sudo apt install build-essentials
+    8  sudo apt install build-essential
+    9  sudo apt install gdb
+   10  init 0
+   11  gcc --version
+   12  cd "/home/rps/Desktop/C Demo/" && gcc first.c -o first && "/home/rps/Desktop/C Demo/"first
+   13  sudo su
+   14  tar xvfz node_exporter-1.7.0.linux-amd64.tar.gz 
+   15  cd node_exporter-1.7.0.linux-amd64/
+   16  sudo mv node_exporter /usr/local/bin/
+   17  sudo tee /etc/systemd/system/node_exporter.service<<EOF
+   18  [Unit]
+   19  Description=Node Exporter
+   20  After=network.target
+   21   
+   22  [Service]
+   23  User=rps
+   24  Group=rps
+   25  Type=simple
+   26  ExecStart=/usr/local/bin/node_exporter
+   27   
+   28  [Install]
+   29  WantedBy=multi-user.target
+   30  EOF
+   31  sudo systemctl daemon-reload
+   32  sudo systemctl start node_exporter
+   33  sudo systemctl enable node_exporter
+   34  sudo systemctl status node_exporter
+   35  sudo apt install gcc
+   36  sudo apt install git
+   37  sudo apt install make
+   38  sudo apt install vim
+   39  sudo apt install g++
+   40  sudo apt install gedit
+   41  sudo apt install cmake
+   42  sudo apt install g++
+   43  cd
+   44  sudo apt update -y
+   45  sudo apt install mysql-server
+   46  sudo systemctl status mysql.service 
+   47  sudo mysql
+   48  sudo mysql_secure_installation
+   49  sudo mysql
+   50  sudo mysql_secure_installation
+   51  sudo mysql -u root -p
+   52  sudo snap install mysql-workbench-community
+   53  cd Desktop
+   54  man tar
+   55  man
+   56  man man
+   57  man alias
+   58  man tar
+   59  man alias
+   60  alias
+   61  man alias
+   62  man tar
+   63  ALIAS -P
+   64  alias -p
+   65  alias
+   66  alias name="ls -lh"
+   67  name
+   68  alias
+   69  man alias
+   70  ls -A
+   71  ls -alF
+   72  alias
+   73  ls
+   74  cd Desktop
+   75  alias
+   76  man alias
+   77  alias
+   78  ls
+   79  cd Desktop
+   80  mkdir f1
+   81  cd f1
+   82  touch file1.txt file2.txt
+   83  cp f1 ~/downloads
+   84  cat file.txt
+   85  cat file1.txt
+   86  cat >>file1.txt
+   87  cat >>file2.txt
+   88  cp f1
+   89  cd f1
+   90  cd ..
+   91  cd f1
+   92  cp /home/rps/Desktop /home/Downloads
+   93  cp -r  /home/rps/Desktop /home/Downloads
+   94  cd ..
+   95  cd f1
+   96  cp -r /home/rps/Desktop/f1 /home/Downloads
+   97  cd ..
+   98  cp -r /home/rps/Desktop/f1 /home/Downloads
+   99  cp -r /rps/Desktop/f1 /Downloads
+  100  cp -r /home/rps/Desktop/f1 /home/Downloads/
+  101  cp -r f1 /home/Downloads/
+  102  cp -r f1 ~/Downloads
+  103  cd Downloads
+  104  cd ..
+  105  cd Downloads
+  106  ls
+  107  cd f1
+  108  ls
+  109  cd~
+  110  cd ..
+  111  history
+  112  sudo
+  113  su
+  114  sudo
+  115  sudo password sammy
+  116  sudo -k
+  117  sudo shutdown -r now
+  118  sudo -h
+  119  sudo -v
+  120  sudo -b
+  121  sudo -k
+  122  ls -l file1.txt
+  123  chmod 760 file1.txt
+  124  ls -l file1.txt
+  125  vl text.txt
+  126  vi text.txt
+  127  ls -l
+  128  ls -l file1.txt
+  129  vi text.txt
+  130  ls
+  131  nano
+  132  git status
+  133  ls
+  134  cd Downloads
+  135  git status
+  136  mkdir project
+  137  ls
+  138  cd project
+  139  vi hello.txt
+  140  cat hello.txt
+  141  cat >>hello.txt
+  142  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
+  143  history
+
